@@ -1,0 +1,40 @@
+/*id selector*/
+#abc{
+	font-size: 20px;
+	font-style: italic;
+	border: 20px green solid;
+	background-color: orange;
+}
+/*element selector have first preferance than any other selector*/
+p{
+	color: green;
+	font-size:30px;
+}
+div{
+	height: 200px;
+	width: 200px;
+	background-color: orange;
+}
+/*universal selector*/
+*{
+	font-size: 40px;
+	font-family: cursive;
+	color: blue;
+}
+/*attribute selector*/
+input[type]{
+	color: violet;
+}
+input[type="text"]{
+	color: darkred;
+}
+input[type="number"]{
+	color: purple;
+}
+a[href]{
+	color: black;
+}
+a[href=""]{
+	color: gray;
+}
+
